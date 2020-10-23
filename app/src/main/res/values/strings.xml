@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MidtermExam-Problem2</string>
+
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+
+    <string name="message_label">Received message</string>
+
+    <string name="trained">Trained</string>
+    <string name="not_trained">Not Trained</string>
+
+    <string name="certified">Certified</string>
+    <string name="not_certified">Not Certified</string>
+</resources>

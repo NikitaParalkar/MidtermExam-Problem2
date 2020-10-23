@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".InputActivity">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+
+
+    <CheckBox
+        android:id="@+id/chkTrained"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trained"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <CheckBox
+        android:id="@+id/chkCertified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Certified"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="382dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+</androidx.appcompat.widget.LinearLayoutCompat>
